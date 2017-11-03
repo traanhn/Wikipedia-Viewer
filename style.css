@@ -1,0 +1,50 @@
+body {
+  
+  background-color: blue; 
+}
+
+input[type=text] {
+    width: 430px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-top: 20px;
+}
+
+input[type=text]:focus {
+    width: 40%;
+}
+.main{
+  margin-top: 200px; 
+  background-image: url("http://d.ibtimes.co.uk/en/full/1473757/wikipedia-logo.png"); 
+  background-size: contain;
+  background-repeat: no-repeat; 
+  background-position: center; 
+  
+}
+ul{
+  list-style-type: none;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 200px;
+  margin-right: 250px;
+  font-size: 16px;
+  padding: 20px;
+  
+}
+#searchEnter{
+  margin-top : 20px; 
+}
+#random{
+  margin-top: 20px;
+}
+
+
